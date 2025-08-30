@@ -17,6 +17,8 @@ REPO_TO_PACKAGE = {
     "https://github.com/pre-commit/mirrors-pylint": "pylint",
     "https://github.com/pre-commit/mirrors-yapf": "yapf",
     "https://github.com/psf/black-pre-commit-mirror": "black",
+    "https://github.com/sqlfluff/sqlfluff": "sqlfluff",
+    "https://github.com/fpgmaas/deptry": "deptry",
 }
 REPO_TO_VERSION_TEMPLATE = {
     "https://github.com/adamchainz/djade-pre-commit": "${rev}",
@@ -27,8 +29,10 @@ REPO_TO_VERSION_TEMPLATE = {
     "https://github.com/codespell-project/codespell": "v${rev}",
     "https://github.com/commitizen-tools/commitizen": "v${rev}",
     "https://github.com/flakeheaven/flakeheaven": "${rev}",
+    "https://github.com/fpgmaas/deptry": "${rev}",
     "https://github.com/hadialqattan/pycln": "v${rev}",
     "https://github.com/hhatto/autopep8": "v${rev}",
+    "https://github.com/johann-petrak/licenseheaders": "v${rev}",
     "https://github.com/pdm-project/pdm": "${rev}",
     "https://github.com/pre-commit/mirrors-autopep8": "v${rev}",
     "https://github.com/pre-commit/mirrors-clang-format": "v${rev}",
@@ -47,6 +51,7 @@ REPO_TO_VERSION_TEMPLATE = {
     "https://github.com/regebro/pyroma": "${rev}",
     "https://github.com/rstcheck/rstcheck": "v${rev}",
     "https://github.com/rtts/djhtml": "${rev}",
+    "https://github.com/sqlfluff/sqlfluff": "${rev}"
 }
 
 
